@@ -14,7 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('cars', function (Blueprint $table) {
-            $table->id();
+            $table->increments("id");
+            $table->string('nameCar', 100);
+            $table->float('cost');
+            $table->string('color', 30);
             $table->timestamps();
         });
     }
