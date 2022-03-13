@@ -17,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::get('/cars', 'App\Http\Controllers\Api\CarController@index' );
+Route::get('/cars/{id}', 'App\Http\Controllers\Api\CarController@show' );
+
+Route::get('/people', 'App\Http\Controllers\Api\PersonController@show' );
+Route::get('/people/{id}', 'App\Http\Controllers\Api\PersonController@show' );
