@@ -3,7 +3,7 @@
 OBSERVACIONES: Existen 2 proyecto del Front End el primero no incluye los que es VITEJS, el segundo es el mismo proyectoFrontEnd pero migrado para funcionar con VITEjs 
 lo dejo en el repositorio por que tenia que aclarar este punto que primero se hizo uno sin VITE y despues se migro para el usod e VITE, la documentacion de VITEjs no es muy clara para su usu en VUEjs 2 entonces me referencie en lo siguiente apra migrar: https://qvault.io/javascript/migrating-vue-webpack-to-vitejs/
 
-
+Me disculpo por la interfaz, esta menos que básica no le dedique tiempo por revisar lo demás.
 
 Para la parte de la API se realizo un proyecto basico de Laravel 9, como decia el reto la última versión
 para esto se realizó
